@@ -11,7 +11,9 @@ Sensor → reliable measurement → plant state → historical context
        → plant-specific model → anomaly detection → actionable recommendation
 ```
 
-Target: ₹250–₹400 per plant node, to be confirmed with a BOM.
+Target: ₹250–₹400 per plant node and about ₹500 for the hub, to be confirmed with a BOM. FYTA's EU prices (Mini €29.99, hub €39.99, Grow Set €199.99) are the benchmark; see [profiles/fyta.md](profiles/fyta.md).
+
+**Architecture is not a differentiator:** FYTA already ships plant nodes + shared room sensor + hub + cloud. Our edge has to be cost and simplicity.
 
 For every sensor, ask: *what better decision can this measurement help us make?*
 

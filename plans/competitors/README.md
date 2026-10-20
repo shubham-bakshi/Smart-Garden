@@ -6,8 +6,9 @@ Consolidated from the original research notes (originals remain in git history a
 
 - **"Personalized / AI plant care" is not a differentiator.** Greg, Planta, Folly and Plant Parent all do it in software.
 - **"We have sensors" is not a differentiator either.** FYTA, Botanical Legacy and LetPlant already combine sensors with plant-specific software.
+- **The "many sensors → one hub → cloud → app" architecture is also taken.** FYTA already sells it (Grow Set €199.99 for 3 plants + room + hub; sensors from €29.99; hub €39.99), plus a B2B dashboard, API and integrations. See [profiles/fyta.md](profiles/fyta.md).
 - What is left to test:
-  1. **Cost**: ₹250–₹400 per plant node (needs a BOM to back it).
+  1. **Cost / India-first economics**: ₹250–₹400 per plant node and about ₹500 hub, versus FYTA's roughly 8–10× higher EU prices (needs a BOM to back it).
   2. **Hub + plug-and-play**: no Home Assistant setup, one hub for 10–20 plants.
   3. **Decision quality**: turn telemetry into "3 plants need attention today", with explanations and anomaly detection, not dashboards.
   4. **Substrate-tuned sensors**: calibrated for common indoor mixes rather than arbitrary third-party sensors.
@@ -23,7 +24,7 @@ Consolidated from the original research notes (originals remain in git history a
 | Plant Parent | Software-first | No (phone light meter) | No | Care history only | [plant-parent](profiles/plant-parent.md) |
 | Botanical Legacy | Software + 3rd-party sensors | No (via Home Assistant) | Yes (~10 min poll) | Yes ("Digital Shadow") | [botanical-legacy](profiles/botanical-legacy.md) |
 | LetPlant | AI app + own hardware | Yes (SDESA, rolling out 2026) | Yes | Yes | [letplant](profiles/letplant.md) |
-| FYTA | Sensor + hub + app | Yes (Mini, Beam, Sphere; BLE) | Yes | Yes | benchmark only, no dedicated file yet |
+| FYTA | Sensor + hub + app + B2B platform | Yes (Mini, Beam G2, Sphere, Terra; BLE + Wi-Fi hub) | Yes | Yes | [fyta](profiles/fyta.md) |
 | Sustee | Cheap moisture sensor | Yes | — | Very little | benchmark only, no dedicated file yet |
 
 Market progression: basic reminders → personalized software care → context-aware care → physical sensing → sensor + per-plant model → predictive / anomaly-aware management. The open question is where the next opportunity sits.
@@ -76,7 +77,7 @@ Market progression: basic reminders → personalized software care → context-a
 
 ## 6. Open gaps in this research
 
-- **FYTA and Sustee have no dedicated file.** FYTA is the most direct hardware benchmark, so a physical-sensing deep dive on it, Botanical Legacy and LetPlant/SDESA is the next task. See the comparison dimensions in [validation-plan.md](validation-plan.md#next-research-task).
+- **Sustee has no dedicated file.** FYTA now has a profile, but it lacks sensor accuracy, calibration and sampling details. A physical-sensing deep dive on FYTA, Botanical Legacy sensors and LetPlant/SDESA is the next task. See the comparison dimensions in [validation-plan.md](validation-plan.md#next-research-task).
 - **Pricing is mostly missing.** Botanical Legacy and PlantIn are now covered in [the deep dive](botanical-legacy-sensor-research.md#5-pricing-and-plans). The rest are not.
 - **New competitor spotted: PlantIn** (software-only, mentioned in Botanical Legacy's comparison). It has no profile yet.
 - **Key finding from the deep dive:** cheap capacitive sensors need per-soil calibration. An external 16-bit ADC cut RMSE to about 0.6–2.6% VWC in one lab study. Botanical Legacy's "over 5% unit-to-unit" claim is overstated: the cited paper attributes that gap mostly to uneven wetting. Unit-to-unit variance in potting mix is untested by anyone, so we should test it.

@@ -20,7 +20,7 @@ Research date: 19 Oct 2026.
 - **Greg:** supports local weather/climate and has a growing Indian community.
 - **Folly:** weather alerts use local forecasts, so per-site (balcony vs living room) alerts work in India.
 - **Plant Parent:** uses phone geolocation for climate-aware watering. Subscriptions go through Google Play / Apple billing.
-- **FYTA:** the app is free and has a 4,800+ plant database. Sensors (Mini, Beam, Sphere) are Bluetooth. **Landed price in India = sensor + international shipping + possible import/tax.** Compute this for a cost comparison against our ₹250–₹400 target.
+- **FYTA:** the app is free and has a 4,800+ plant database. Sensors (Mini, Beam, Sphere) are Bluetooth. **Landed price in India = sensor + international shipping + possible import/tax.** EU list prices are in [profiles/fyta.md](profiles/fyta.md) (Mini €29.99, hub €39.99, Grow Set €199.99). Compute the landed price for a cost comparison against our ₹250–₹400 target.
 - **LetPlant:** the free app is available. Re-verify SDESA availability as the rollout expands.
 - **Botanical Legacy:** store availability varies, so treat it separately from its IoT integration capability.
 

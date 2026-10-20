@@ -46,6 +46,7 @@
 - Google Play (India): https://play.google.com/store/apps/details?id=com.letplantapp&hl=en_IN
 
 ## FYTA
+- User-supplied research summary: FYTA official pages for API, Science & Industry (B2B), System 2.0, Grow Set, Grove Set, technical specifications and the reseller program (exact URLs not recorded; add them).
 - App download: https://fyta.de/en/pages/app-download
 - Google Play: https://play.google.com/store/apps/details?id=vao.fyta&hl=en_IN
 
