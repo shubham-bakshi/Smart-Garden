@@ -93,3 +93,4 @@ Market progression: basic reminders → personalized software care → context-a
 | [india-availability.md](india-availability.md) | App-store and hardware availability in India |
 | [validation-plan.md](validation-plan.md) | Differentiation, hardware architecture, sensor and software-vs-sensor experiments |
 | [sources.md](sources.md) | All source links |
+| [../market/india-indoor-plants-market.md](../market/india-indoor-plants-market.md) | India indoor-plant market size, segments, and what it implies for us |

@@ -65,3 +65,4 @@
 - Clemson HGIC, watering indoor plants: https://hgic.clemson.edu/factsheet/indoor-plants-watering/
 - Illinois Extension, watering houseplants: https://extension.illinois.edu/houseplants/watering
 - Not readable: Egri et al. 2010 (cookie wall): https://pubmed.ncbi.nlm.nih.gov/20070538/
+- Market size: https://www.techsciresearch.com/report/india-indoor-plants-market/4124.html
