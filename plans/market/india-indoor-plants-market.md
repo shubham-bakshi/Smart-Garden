@@ -48,6 +48,26 @@ The CAGR reconciles with a 2026 base: (440.88/287.42)^(1/5) − 1 ≈ 8.9%.
 
 Nurturing Green, FNP E Retail, Heritage India Communications, Santhi Online Plants Nursery, Mera Maali, myBageecha, Nurserylive, Trust Basket, Green Decor, Mashrita Nature Cloud. Also Ugaoo, which has 1M+ orders over 3 years and a 100-acre target of about 500,000 plants a month.
 
+## Cross-check against other market reports (20 Oct 2026)
+
+Three vendors disagree by about 2.4×, so treat all of them as rough.
+
+| Source | 2025 size | Forecast | CAGR | Online share | Notes |
+|---|---|---|---|---|---|
+| TechSci | USD 268.5 M | USD 440.9 M (2031) | 8.93% (2026–31) | about 20% | The lowest estimate |
+| Ken Research | USD 657 M | USD 1,020 M (2031) | 7.61% (2026–31) | 31% (2025), 47% (2031F) | 46.0 M plants sold in 2025 (64.1 M by 2031); average selling price USD 14.28; methodology: 346 respondents plus top-down and bottom-up sizing |
+| IMARC | USD 657.3 M | USD 1,265.4 M (2034) | 7.17% (2026–34) | n/a | Its 2025 figure matches Ken's almost exactly, so the two may share a base |
+| Research and Markets (title you pasted) | not found | | | | Only a Nexdigm page claiming 9.1% CAGR 2024–30 turned up, with no dollar figure |
+
+- **Why they differ:** likely definitions (plants only, or pots and accessories too) and base data. None of them explains it.
+- **Useful numbers from Ken:** 46 M plants a year at about USD 14 each. Price tiers: value under USD 6, mid USD 6–18, premium USD 18–60, collector over USD 60. About 4,800 sellers. Average plant is cheap relative to a sensor, which matters for bundling.
+- **Care-tech mentions:**
+  - IMARC lists "smart planters with sensors" and "IoT-based integrated plant care platforms" as a trend and "premium smart plant-care products" as an opportunity.
+  - Ken lists self-watering planters (reservoir, wick, indicator) as a trend and names Kyari.
+  - Neither gives sizes or adoption figures.
+- **Both confirm:** post-delivery plant mortality and low care knowledge drive negative reviews and churn.
+- **Players named by Ken:** Ugaoo, Nurserylive, Urvann, Kyari, PlantsGuru, myBageecha, TrustBasket, Nurturing Green, Rolling Nature, Plant Orbit.
+
 ## What this means for us
 
 **Supports:**

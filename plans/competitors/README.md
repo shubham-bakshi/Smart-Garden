@@ -48,6 +48,16 @@ Market progression: basic reminders → personalized software care → context-a
 | Home Assistant integration | **Yes** | No | No | Not established | No | No |
 | Community | — | — | — | — | **Strong** | — |
 
+### India context and adjacent players
+
+Detail in [../market/](../market/india-indoor-plants-market.md) and [adjacent-players.md](../market/adjacent-players.md).
+
+- **Market:** estimates for India's indoor-plant sales range from USD 268M (TechSci) to USD 657M (Ken, IMARC) in 2025, growing 7–9% a year. About 46M plants a year at about USD 14 each (Ken). Plant mortality and low care knowledge are named as problems; sensors and smart planters are named as an opportunity, but nobody sizes it.
+- **No Indian consumer sensor product for potted indoor plants was found** in a few searches. Indian activity is in hydroponics and farm automation: Agro2o, BitMantis, 4Climate.
+- **Agro2o** (Delhi): automated hydroponic units (pH/EC/humidity sensing, LEDs, nutrient dosing). It raised an undisclosed round from Mumbai Angels Network in Aug 2026 for hardware scaling and R&D, and is prioritising B2B (kitchens, offices, hotels). It controls a closed environment rather than monitoring ordinary pots, so it is adjacent, not a direct competitor. It shows investors will fund Indian indoor-growing hardware and that B2B is where the money is going.
+- **Retailers** (Ugaoo, Nurserylive, Urvann, Kyari) are potential channels and hold the data on post-purchase plant death.
+- **Hardware benchmark:** a Zigbee soil sensor (ThirdReality) sells for US$15–20 and needs a separate hub.
+
 ## 3. Priority
 
 - **Tier 1, study deeply (closest to our idea):** Botanical Legacy, LetPlant, FYTA.
@@ -78,6 +88,7 @@ Market progression: basic reminders → personalized software care → context-a
 ## 6. Open gaps in this research
 
 - **Sustee has no dedicated file.** FYTA now has a profile, but it lacks sensor accuracy, calibration and sampling details. A physical-sensing deep dive on FYTA, Botanical Legacy sensors and LetPlant/SDESA is the next task. See the comparison dimensions in [validation-plan.md](validation-plan.md#next-research-task).
+- **B2B is unexplored for us.** FYTA's B2B dashboard and API, the fastest-growing commercial segment in the TechSci report, and Agro2o's B2B focus all point at offices, hotels and cafés. We have only considered homes.
 - **Pricing is mostly missing.** Botanical Legacy and PlantIn are now covered in [the deep dive](botanical-legacy-sensor-research.md#5-pricing-and-plans). The rest are not.
 - **New competitor spotted: PlantIn** (software-only, mentioned in Botanical Legacy's comparison). It has no profile yet.
 - **Key finding from the deep dive:** cheap capacitive sensors need per-soil calibration. An external 16-bit ADC cut RMSE to about 0.6–2.6% VWC in one lab study. Botanical Legacy's "over 5% unit-to-unit" claim is overstated: the cited paper attributes that gap mostly to uneven wetting. Unit-to-unit variance in potting mix is untested by anyone, so we should test it.
@@ -94,3 +105,4 @@ Market progression: basic reminders → personalized software care → context-a
 | [validation-plan.md](validation-plan.md) | Differentiation, hardware architecture, sensor and software-vs-sensor experiments |
 | [sources.md](sources.md) | All source links |
 | [../market/india-indoor-plants-market.md](../market/india-indoor-plants-market.md) | India indoor-plant market size, segments, and what it implies for us |
+| [../market/adjacent-players.md](../market/adjacent-players.md) | Indian hydroponic/agritech startups, plant retailers, Zigbee soil-sensor reference |

@@ -66,3 +66,13 @@
 - Illinois Extension, watering houseplants: https://extension.illinois.edu/houseplants/watering
 - Not readable: Egri et al. 2010 (cookie wall): https://pubmed.ncbi.nlm.nih.gov/20070538/
 - Market size: https://www.techsciresearch.com/report/india-indoor-plants-market/4124.html
+
+## Market & adjacent (India)
+- Ken Research: https://www.kenresearch.com/industry-reports/india-indoor-plants-market.md
+- IMARC: https://www.imarcgroup.com/india-indoor-plants-market
+- Agro2o (YourStory): https://yourstory.com/2019/12/meity-agritech-startup-hydroponics-smart-garden-automation-iot/amp
+- Agro2o (The Better India): https://thebetterindia.com/219829/elhi-startup-agro2o-smart-hydroponics-grow-vegetables-indoor-india-nor41
+- BitMantis (The Better India): https://www.thebetterindia.com/195582/hydroponics-startup-grow-vegetables-home-hyderabad-bengaluru-delhi-india/
+- 4Climate (NITI Frontier Tech): https://frontiertech.niti.gov.in/story/800000-sq-ft-of-farms-now-run-on-ai-driven-indoor-farming-systems
+- ThirdReality Zigbee soil sensor: https://www.thirdreality.com/products/smart-soil-moisture-sensor-gen2
+- Agro2o funding (StartupWire, Aug 2026): https://www.startupwire.in/post/agritech-startup-agro2o-secures-funding-mumbai-angels-network
